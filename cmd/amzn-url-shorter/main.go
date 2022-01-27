@@ -90,5 +90,5 @@ func shorter(url string) (string, error) {
 		return "", fmt.Errorf("%s: %s", errInvalidURL, url)
 	}
 
-	return "https://amazon.co.jp/dp/" + url[idx:end], nil
+	return "https://amazon.in/dp/" + url[idx:end], nil
 }
